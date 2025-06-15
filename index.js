@@ -36,7 +36,7 @@ function moveDodgerRight(){
         dodger.style.left = `${left + 1}px`;
     }
 }
-document.addEventListener(keydown, function(e){
+document.addEventListener("keydown", function(e){
     if(e.key==="ArrowLeft"){
         moveDodgerLeft();
     } else if(e.key === "ArrowRight"){
